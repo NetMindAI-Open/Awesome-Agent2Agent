@@ -46,7 +46,6 @@ By following the A2A standard, we believe the future of AI will be collaborative
 - [Agents Hub](#agents-hub)
 - [Open Source Agents](#open-source-agents)
 - [Commercial Agents](#commercial-agents)
-- [Community Projects](#community-projects)
 - [Tutorials & Guides](#tutorials--guides)
 - [Research Papers](#research-papers)
 - [Roadmap](#roadmap)
@@ -108,11 +107,6 @@ List of commercial / closed-source agents implementing the A2A protocol.
 
 ---
 
-## Community Projects
-
-Showcasing projects from the community.
-
----
 
 ## Tutorials & Guides
 
