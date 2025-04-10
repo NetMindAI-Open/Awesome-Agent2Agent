@@ -134,7 +134,7 @@ The following badges are used to provide additional information about each proje
 
 ## Templates
 
-- [FastAPI A2A Template](https://github.com/NetMindAI-Open/fastapi-a2a-template) - A starter template for implementing A2A using Python and FastAPI. ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![A2A Server](https://img.shields.io/badge/-A2A%20Server-4285F4?style=flat-square)
+- [FastAPI A2A Template](https://github.com/NetMindAI-Open/Awesome-Agent2Agent/tree/main/agent_api_template/python/fastapi_a2a_template) - A starter template for implementing A2A using Python and FastAPI. ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![A2A Server](https://img.shields.io/badge/-A2A%20Server-4285F4?style=flat-square)
 
 ## Tutorials & Guides
 
