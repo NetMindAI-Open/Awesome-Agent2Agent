@@ -13,6 +13,8 @@ Agent2Agent (A2A) is an open protocol developed by Google that enables communica
 
 - [Official Resources](#official-resources)
 - [Legend](#legend)
+- [API Templates](#api-templates)
+- [Agents Hub](#agents-hub)
 - [Open Source Implementations](#open-source-implementations)
   - [Productivity & Work](#productivity--work)
   - [Healthcare](#healthcare)
@@ -64,6 +66,32 @@ The following badges are used to provide additional information about each proje
 | ![A2A Client](https://img.shields.io/badge/-A2A%20Client-34A853?style=flat-square) | Implements A2A Client capabilities |
 | ![Open Source](https://img.shields.io/badge/-Open%20Source-2da44e?style=flat-square) | Project is open source |
 | ![Enterprise](https://img.shields.io/badge/-Enterprise-0052CC?style=flat-square) | Enterprise-ready solution |
+
+## TODO
+
+Our Team will work on the next tasks, and ASAP add them in this repo.
+
+- [ ] Agent2Agent API Templates
+> This repository provides reference implementation templates that allow developers to quickly set up Agent2Agent (A2A) protocol-compliant services. These templates are configured based on the official protocol specifications and documentation, enabling rapid development of A2A-compatible agents.
+- [ ] MCP-based A2A Server Using
+> While we continue to explore the relationship between Google's Multimodal Conversational Platform (MCP) and the Agent2Agent protocol, we've implemented a pragmatic approach - utilizing MCP technology to wrap protocol-compliant agents as MCP servers. This approach allows for maximum interoperability while maintaining protocol compliance.
+> Key features of our template:
+> - Full implementation of the A2A HTTP request specifications
+> - Session management for maintaining conversation context
+> - Structured response handling according to protocol requirements
+> - Ready-to-use FastAPI implementation with OpenAPI documentation
+> - Extension points for custom agent logic and capabilities
+> The template accelerates development by handling all low-level protocol requirements, allowing developers to focus on agent implementation logic rather than protocol compliance details.
+- [ ] Agents Hub
+> The Agents Hub is a web-based interface that facilitates interaction with A2A-compliant agents. It serves as both a development tool and a demonstration platform for the Agent2Agent ecosystem.
+> Features
+> - **Agent Discovery and Management**: Connect to any A2A-compliant agent by providing its Base URL
+> - **Interactive Testing**: Communicate with agents through a user-friendly interface that handles all protocol details
+> - **Session Management**: Automatic maintenance of conversation contexts and session IDs
+> - **Pre-configured Agents Gallery**: Access to a curated collection of ready-to-use A2A-compliant agents
+> - **Conversation History**: Track and review past interactions with different agents
+> - **Capability Exploration**: Discover and test various agent capabilities within the protocol's specifications
+> The Agents Hub is designed to simplify the development, testing, and demonstration of A2A-compliant agents, providing a unified interface for interacting with diverse agent implementations across the ecosystem.
 
 ## Open Source Implementations
 
