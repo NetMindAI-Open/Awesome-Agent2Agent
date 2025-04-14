@@ -87,17 +87,6 @@ Key Features:
 
 Curated list of public A2A-compatible agents.
 
-### Productivity & Work
-### Healthcare
-### Education
-### Finance
-### Developer Tools
-### Customer Service
-### Entertainment
-### Data Analysis
-### IoT & Smart Home
-### Research
-### General Purpose
 
 ---
 
