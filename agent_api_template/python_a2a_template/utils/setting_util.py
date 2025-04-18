@@ -17,6 +17,9 @@ def load_agent_json():
 
 
 class Setting:
+
+    APISecretKey: str = os.getenv("APISecretKey", "your_key")
+
     AgentCARD: AgentCard = AgentCard(**load_agent_json())
 
 

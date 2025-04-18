@@ -51,8 +51,6 @@ class CustomMiddleware(BaseHTTPMiddleware):
 
     async def dispatch(self, request: Request, call_next: RequestResponseEndpoint) -> Response:
         # Pre-processing logic
-        if setting.AgentCARD.authentication:
-            await self.request_auth(request)
 
         try:
             result = await call_next(request)
@@ -60,7 +58,3 @@ class CustomMiddleware(BaseHTTPMiddleware):
         except Exception as e:
             return _handle_exception(e)
         # Post-processing logic
-
-    async def request_auth(self, request: Request):
-        # Implement your authentication logic here
-        pass

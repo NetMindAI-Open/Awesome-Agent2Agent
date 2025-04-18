@@ -1,6 +1,7 @@
 fastapi==0.115.12
 pydantic==2.11.3
 python-dotenv==1.1.0
+python-jose==3.4.0
 sse-starlette==2.2.1
 starlette==0.46.2
 uvicorn==0.34.1
