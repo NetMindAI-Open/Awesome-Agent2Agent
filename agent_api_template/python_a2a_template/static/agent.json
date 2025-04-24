@@ -1,0 +1,15 @@
+{
+    "name": "xxx",
+    "description": "xxx",
+    "url": "http://host:port",
+    "version": "0.0.1",
+    "capabilities": {
+        "streaming": false
+    },
+    "skills": [
+        {
+            "id": "xxxx",
+            "name": "xxx"
+        }
+    ]
+}
